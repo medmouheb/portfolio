@@ -1,0 +1,10 @@
+.ProjectsBody{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.ProjectsBody > div{
+    width: 25%;
+    margin: 2%;
+}

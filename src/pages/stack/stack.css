@@ -1,0 +1,11 @@
+.stackBody{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.stackBody > img{
+    width: 12%;
+    margin: 2%;
+}

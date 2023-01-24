@@ -1,0 +1,14 @@
+.contactPage > h1 {
+    text-align: center;
+    font-family: system-ui;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 58px;
+    color: #42446E;
+}
+
+.contactPageBody{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

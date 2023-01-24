@@ -1,0 +1,72 @@
+.navbar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    background-color: white;
+    top: 0;
+
+
+}
+
+.navbarBody {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+}
+
+.navbarItems {
+    display: flex;
+}
+
+.navbarIcons {
+    display: flex;
+}
+
+.bigLogoText {
+    font-family: system-ui;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.smallLogoText {
+    font-family: system-ui;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 24px;
+}
+
+.navbarItem {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #666666;
+    width: auto;
+    margin-right: 35px;
+}
+.navbarItem:hover {
+    
+    color: #00C0FD;
+    
+}
+
+.navbarIcon {
+    margin-right: 25px;
+    border-radius: 50%;
+}
+.navbarIcon:hover {
+    background-color: #00C0FD;
+}
+
+.colorRanbow{
+    background: -webkit-linear-gradient(left, #00C0FD, #E70FAA);
+    background: -o-linear-gradient(right, #00C0FD, #E70FAA);
+    background: -moz-linear-gradient(right, #00C0FD, #E70FAA);
+    background: linear-gradient(to right, #00C0FD, #E70FAA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
